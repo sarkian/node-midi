@@ -1,6 +1,6 @@
 {
   "name": "midi-jack",
-  "version": "0.9.6",
+  "version": "0.9.7",
   "scripts": {
     "test": "mocha test/unit-tests.js && node test/virtual-loopback-test-automated.js"
   },
@@ -45,6 +45,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/justinlatimer/node-midi.git"
+    "url": "https://github.com/sarkian/node-midi-jack.git"
   }
 }
