@@ -1,5 +1,5 @@
 {
-  "name": "midi",
+  "name": "midi-jack",
   "version": "0.9.6",
   "scripts": {
     "test": "mocha test/unit-tests.js && node test/virtual-loopback-test-automated.js"
