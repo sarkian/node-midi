@@ -1,3 +1,5 @@
+(forked from https://www.npmjs.com/package/midi (https://github.com/justinlatimer/node-midi, https://github.com/Cycling74/node-midi))
+
 ♪ ♫ ♩ ♬
 
 # node-midi
@@ -23,8 +25,8 @@ RtMidi supports Linux (ALSA & Jack), Macintosh OS X (CoreMidi), and Windows
 ### Linux
 
 * A C++ compiler
-* You must have installed and configured ALSA. Without it this module will **NOT** build.
-* Install the libasound2-dev package.
+* You must have installed and configured JACK. Without it this module will **NOT** build.
+* Install the libjack-jackd2-dev package.
 * Python (for node-gyp)
 
 ## Installation

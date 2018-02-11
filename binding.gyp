@@ -16,11 +16,11 @@
               '-fno-exceptions'
             ],
             'defines': [
-              '__LINUX_ALSA__'
+              '__UNIX_JACK__',
             ],
             'link_settings': {
               'libraries': [
-                '-lasound',
+                '-ljack',
                 '-lpthread',
               ]
             }
